@@ -6,7 +6,7 @@ Settings
 
 ---
 
-## 📌 Overview
+##  Overview
 
 A machine learning system for **real-time cervical cancer detection** from Pap smear images using Convolutional Neural Networks (CNN). Built to assist early screening in resource-constrained healthcare settings where trained cytologists and lab infrastructure are limited.
 
@@ -14,7 +14,7 @@ A machine learning system for **real-time cervical cancer detection** from Pap s
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 ```
 Cervical Image Input
@@ -30,7 +30,7 @@ The pipeline takes raw colposcopy or Pap smear images, preprocesses them into st
 
 ---
 
-## 📊 Results
+##  Results
 
 | Metric | Value |
 |---|---|
@@ -45,7 +45,7 @@ The pipeline takes raw colposcopy or Pap smear images, preprocesses them into st
 
 ---
 
-## 🗂️ Dataset
+##  Dataset
 
 **SIPaKMeD** — a publicly available cervical cytology benchmark dataset containing 4,049 cell images across 5 classes:
 
@@ -59,7 +59,7 @@ The pipeline takes raw colposcopy or Pap smear images, preprocesses them into st
 
 ---
 
-## ⚙️ Methodology
+##  Methodology
 
 1. **Data Acquisition** — SIPaKMeD dataset (image-level 80/20 split)
 2. **Preprocessing** — Lesion detection, cropping, patch standardization, normalization
@@ -69,7 +69,7 @@ The pipeline takes raw colposcopy or Pap smear images, preprocesses them into st
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 ```bash
@@ -97,7 +97,7 @@ python predict.py --image path/to/image.jpg
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 cervical-cancer-detection/
@@ -116,7 +116,7 @@ cervical-cancer-detection/
 
 ---
 
-## 🔮 Future Work
+##  Future Work
 
 - [ ] Patient-level train/test splitting to eliminate data leakage
 - [ ] Multi-class classification for granular diagnostic output (LSIL, HSIL, ASC-US)
@@ -126,7 +126,7 @@ cervical-cancer-detection/
 
 ---
 
-## 📄 References
+##  References
 
 1. Ronneberger, O., Fischer, P., and Brox, T. (2015). *U-Net: Convolutional Networks for Biomedical Image Segmentation*
 2. Litjens, G. et al. (2017). *A Survey on Deep Learning in Medical Image Analysis*
@@ -136,7 +136,7 @@ cervical-cancer-detection/
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Kavya Shree**
 Computer Science Engineering — Pandit Deendayal Energy University (PDEU), India
@@ -144,6 +144,6 @@ Computer Science Engineering — Pandit Deendayal Energy University (PDEU), Indi
 
 ---
 
-## 📜 License
+##  License
 
 This project is for academic and research purposes only. Not intended for clinical use without proper medical validation.
