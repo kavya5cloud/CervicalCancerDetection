@@ -79,7 +79,7 @@ pip install tensorflow keras numpy opencv-python matplotlib scikit-learn
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/yourusername/cervical-cancer-detection.git
+git clone https://github.com/kavya5cloud/cervical-cancer-detection.git
 cd cervical-cancer-detection
 ```
 
