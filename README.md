@@ -64,7 +64,8 @@ The pipeline takes raw colposcopy or Pap smear images, preprocesses them into st
 1. **Data Acquisition** — SIPaKMeD dataset (image-level 80/20 split)
 2. **Preprocessing** — Lesion detection, cropping, patch standardization, normalization
 3. **Data Augmentation** — Rotation, flipping, brightness adjustments to improve generalization
-4. **CNN Classification** — Multi-layer CNN with regularization and validation monitoring
+4. **CNN Classification** — Multi-layer CNN with regularization and validation monitoring![Uploading Screenshot 2026-03-28 at 10.24.50 PM.png…]()
+
 5. **Real-Time Prediction** — Integrated screening interface returning results in seconds
 
 ---
